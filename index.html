@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+   
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .attribution { font-size: 11px; text-align: center; 
+    font-size: 30px; padding: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .all{
+      display: grid;
+      grid-template-columns:5(1,fr) ;
+      gap: 1rem;
+      grid-template-rows: 45vh  45vh;
+      grid-template-areas: "a a a b c" "e d d d c";
+    }
+    .dan{
+      grid-area: a;
+      background-color:  hsl(263, 55%, 52%);
+      padding: 20px;
+      border-radius: 10px;
+      color: aliceblue;
+       
+    }
+    .jon{
+      grid-area: b;
+      background-color:  hsl(217, 19%, 35%);
+      padding: 20px;
+      border-radius: 10px;
+      color: aliceblue;
+    }
+    .kir{
+      grid-area: c;
+      background-color: hsl(0, 0%, 100%);
+      padding: 20px;
+      border-radius: 10px;
+      color: rgb(15, 15, 16);
+      box-shadow: 2px 2px 2px 2px gray;
+    }
+    .jea{
+      grid-area: e;
+      background-color: hsl(0, 0%, 100%);
+      padding: 20px;
+      border-radius: 10px;
+      color: rgb(15, 15, 16);
+      box-shadow: 2px 2px 2px 2px gray;
+    }
+    .pat{
+      grid-area: d;
+      background-color: hsl(219, 29%, 14%);
+      padding: 20px;
+      border-radius: 10px;
+      color: rgb(244, 244, 246);
+    }
+    .d{
+      display: flex;
+      align-items: center;
+       
+       
+    }
+    img{
+      border-radius: 30px; display: inline-block;
+      border:2px aliceblue solid;
+    }
+    .nam{
+      padding: 10px;
+      
+    }
+     
+
+  </style>
+</head>
+<body>
+  <div class="all"> 
+  <div class="dan"> 
+    
+    <nav class="d"> 
+      
+      <img   src="C:\Users\divya\Downloads\testimonials-grid-section-main\testimonials-grid-section-main\images\image-daniel.jpg">
+      <div   class="nam">
+         
+  Daniel Clifford <br>
+  Verified Graduate
+      </div>
+      
+    </nav>
+    <h2 style="   z-index:5;"> 
+
+  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+  in the company I joined. I honestly feel I got every penny’s worth.
+    </h2>
+    <p> 
+
+  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+  transition and have heard some people who had an amazing experience here. I signed up 
+  for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+  The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+  the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+    </p> 
+    <svg style="opacity: 0.5; position: absolute; top:30px; left:450px;z-index: 1;" width="104" class="svg" height="102" xmlns="http://www.w3.org/2000/svg"><path d="M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z" fill="#A775F1" fill-rule="nonzero"/></svg> 
+</div>
+  <div class="jon"> 
+    <nav class="d"> 
+      <img src="C:\Users\divya\Downloads\testimonials-grid-section-main\testimonials-grid-section-main\images\image-jonathan.jpg"  >
+      <div class="nam"> 
+  Jonathan Walters<br>
+  Verified Graduate
+  </nav> 
+  <h2> 
+  The team was very supportive and kept me motivated
+  </h2>
+
+<p> 
+  “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+  for a big company. This was one of the best investments I’ve made in myself. ”
+</p>
+  </div>
+  <div class="jea"> 
+  <nav class="d"> 
+    <img style="border: 2px solid black;" src="C:\Users\divya\Downloads\testimonials-grid-section-main\testimonials-grid-section-main\images\image-jeanette.jpg">
+    <div class="nam"> 
+  Jeanette Harmon<br>
+  Verified Graduate
+    </div>
+  </nav>
+  <h2> 
+
+  An overall wonderful and rewarding experience
+  </h2>
+<p>
+  “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+  while doing something I love. ”
+</p>
+  </div>
+  <div class="pat">
+    
+ <nav class="d"> 
+  <img src="C:\Users\divya\Downloads\testimonials-grid-section-main\testimonials-grid-section-main\images\image-patrick.jpg">
+  <div class="nam">
+    
+  Patrick Abrams<br>
+  Verified Graduate
+  </div>
+ </nav>
+ <h2>
+
+  
+
+  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+  learning from their experiences was easy.
+ </h2>
+<p> 
+  “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+  gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+  junior developer. The standard is above the rest. You will get the personal attention you need from 
+  an incredible community of smart and amazing people. ”
+</p>
+  </div>
+  <div class="kir"> 
+    <nav class="d"> 
+      <img style="border: 2px solid black;" src="C:\Users\divya\Downloads\testimonials-grid-section-main\testimonials-grid-section-main\images\image-kira.jpg">
+      <div class="nam"> 
+  Kira Whittle<br>
+  Verified Graduate
+      </div>
+    </nav>
+    <h2> 
+
+  Such a life-changing experience. Highly recommended!</h2>
+<p> 
+  “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+  professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+  student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+  did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+  project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+  could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+  experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+  100% recommend! ”
+</p>
+  </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">S. ARCHANA PARAMESHWARI</a>.
+  </div>
+</body>
+</html>
