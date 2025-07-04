@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.do{
+	background-color:  cornsilk;
+} 
+ nav{
+	background-color:    #6af96f;
+ }
+ span{
+	color:red
+ }
+ .areaa{
+    background-image: url("../Saved Pictures/medical.jpg");
+    background-position: center;	
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    width: 100%;
+     
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+     
+}
